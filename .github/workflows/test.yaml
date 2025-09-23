@@ -1,6 +1,6 @@
-name: Test
+name: test
 on:
-  pull_rquest:
+  pull_request:
     paths: ['go/**/*.go']
 jobs:
   test:
